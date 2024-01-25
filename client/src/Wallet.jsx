@@ -42,7 +42,7 @@ function Wallet({ address, setAddress, balance, setBalance, privAddr, setPrivAdd
 			 (
 				<>
 					<div className="wallet-addr">WALLET: {address}</div>
-					<div className="private-key"> Private key: {privAddr.slice(1,15)}....</div>
+					<div className="private-key"> Private key: {privAddr}</div>
 				</>
 			)
 	 	}
