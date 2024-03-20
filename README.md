@@ -31,7 +31,8 @@ The application should connect to the default server port (3042) automatically!
 _Hint_ - Use [nodemon](https://www.npmjs.com/package/nodemon) instead of `node` to automatically restart the server on any changes.
 
 
-## ------ My Solution ------
+## Core Functionality
+
 - [ ] The app generates a unique wallet when the generate button is clicked and a balance of 100 is automatically given to it. The eth address is then sent to the backend.
 - [ ] When a user initiates a transaction they are prompted to sign with their private key. 
 - [ ] Their public address is recovered from the signature. Also the signed message hash and public address are sent to the backend to prove authencity using secp256k1.
